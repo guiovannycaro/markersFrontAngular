@@ -1,0 +1,17 @@
+
+import { Solicitudes } from './solicitudes';
+import { Usuarios } from './usuarios';
+
+export class solicitudesUsuario {
+  idSolicitudUsu: number;
+  idSolicitud: Solicitudes;
+  idUsuario: Usuarios;
+
+
+  constructor() {
+    this.idSolicitudUsu = 0;
+    this.idSolicitud = new Solicitudes();
+    this.idUsuario = new Usuarios();
+
+  }
+}
